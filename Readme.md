@@ -19,7 +19,7 @@ docker run --rm -v $(pwd):/app composer install
 
 ### clone this repo
 ```
-git clone <git url>
+git clone https://github.com/dekribellyliu/docker-laravel.git
 ```
 
 ### Run the laravel website
@@ -38,5 +38,5 @@ docker-compose exec app php artisan optimize
 Try open localhost:8080 again.
 
 
-### I can learn this from
+### I learn this from
 Medium : https://medium.com/@shakyShane/laravel-docker-part-1-setup-for-development-e3daaefaf3c
